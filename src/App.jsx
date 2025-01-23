@@ -15,8 +15,7 @@ function App() {
   return (
     <div className='general'>
 
-      <img
-        src="https://l24.im/c6YuDU" className='img' />
+      <img src="https://l24.im/c6YuDU" className='img' />
 
       <h1>Select <span style={{ color: "red" }}>Difficulty</span> Level</h1>
 

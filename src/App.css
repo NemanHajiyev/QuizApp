@@ -122,7 +122,6 @@ body {
 .confetti {
     width: 100%;
     height: 100vh;
-    object-fit: cover;
 }
 
 option {
@@ -130,4 +129,11 @@ option {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #A939DC;
+}
+
+@media (max-width: 768px) {
+    .general {
+        margin: 0 auto;
+        width: 95%;
+    }
 }
