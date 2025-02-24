@@ -82,8 +82,8 @@ function Card({ questions }) {
                     <button
                         key={index}
                         className="quiz-btn"
-                        onClick={() => handleAnswer(answer)}
-                    >
+                        onClick={() => handleAnswer(answer)} >
+
                         <span dangerouslySetInnerHTML={{ __html: answer }} />
                     </button>
                 ))}
